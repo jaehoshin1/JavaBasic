@@ -28,11 +28,11 @@ public class TestPrintf {
 		// %s : string, 문자열을 표기할때 사용
 		
 		System.out.printf(
-				"x = %d and pi = %f" \n",x,pi);"
+				"x = %d and pi = %f\n",x,pi);
 		
 				
 		//printf 메서드를 이용하는 또다른 방법
-		String fmt = "x = %d and pi = %f" \n";"
+		String fmt = "x = %d and pi = %f\n";
 		
 		
 	}

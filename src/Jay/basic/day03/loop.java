@@ -73,12 +73,11 @@ public class loop {
 		
 		// ex ) 1 ~ 100 사이 총합 구해서 출력 v2
 		// 가우스 연산법 이용
-		int sum = 0;
-		for(int i = 1; int <=200; ++i) {
+		sum = 0;
+		for(int i = 1; i <=200; ++i) {
 			sum = sum + i/2;
 		}
 		System.out.println("1~100 사이 합 : "+sum);
 		}
 	}
-}
 

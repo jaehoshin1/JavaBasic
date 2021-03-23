@@ -8,7 +8,7 @@ package Jay.basic.day01;
  *
  */
 public class Professor {
-	puvlic static void main(String[ args]) {
+	public static void main(String[] args) {
 		String profNo;
 		String proName;
 		String subjectField;

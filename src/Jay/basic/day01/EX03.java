@@ -6,15 +6,15 @@ package Jay.basic.day01;
  */
 public class EX03 {
 	public static void main(String[] args) {
-		int x
-		int y
-		int z
-		int s
-		int v
-		int g
-		int t
+		int x;
+		int y;
+		int z;
+		int s;
+		int v;
+		int g;
+		int t;
 		
-		system.out.println(3*x);
+		System.out.println(3*10);
 		
 		
 	}

@@ -10,8 +10,8 @@ package Jay.basic.day01;
 public class Subject {
 	public static void main (String[] args) {
 		String subjectnumber;
-		string subjectName;
-		string subjectDesc;
-		string subjectProf;
+		String subjectName;
+		String subjectDesc;
+		String subjectProf;
 	}
 }
