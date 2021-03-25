@@ -2,7 +2,7 @@ package Jay.basic.day07;
 //자바 클래스 구글링
 public class SungJukV4b {
     //클래스의 종류
-    //VO/DTO    : calue object/data transfer object
+    //VO/DTO    : value object/data transfer object
     //              값만 저장하기 위해 사용하는 클래스
     //              주로 데이터베이스 태아불의 각 열과 연계해서 작성함
 
