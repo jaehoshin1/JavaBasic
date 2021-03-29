@@ -1,8 +1,15 @@
-package Jay.basic.day09;
+package Jay.basic.day10;
 
-public class StarCraft2 {
+public class StarCraft {
     public static void main(String[] args) {
-    SCV s = new SCV();
+        //SCV s = new SCV("SCV",45,5,2.81,50,0);
+        // scv 유닛을 만들때 마다 초기값을 지정하는 것은
+        // 다소번거로움
+        // 즉, 동일한 속성을 가진 유닛을 만들때 마다
+        // 매개변수를 통해 객체를 만드는 것은 비효율적임
+        // 이런경우, 생성자내에서 초기값을 지정하는 것이 나음
+
+        Jay.basic.day10.SCV s = new Jay.basic.day10.SCV();
 
         System.out.println("SCV의 체력" + s.hp );
 
@@ -10,13 +17,13 @@ public class StarCraft2 {
         s.move();
         s.specialAbilty();
 
-    Marine m = new Marine();
+        Jay.basic.day10.Marine m = new Jay.basic.day10.Marine();
         System.out.println("Marine의 체력" + m.hp);
         m.attack();
         m.move();
         m.specialAbilty();
 
-}
+    }
 }
 
 abstract class Unit{
@@ -44,7 +51,7 @@ abstract class Unit{
     abstract public void specialAbilty();
 }
 
-class SCV extends Unit {
+class SCV extends Jay.basic.day10.Unit {
 
     final String fmtattack = "융합절단기를 리용해서 대상에 %d의 피해를 주고있습니다\n";
     final String fmtmove = "지정한 위치로 %.2f 속도로 이동중입니다\n";
@@ -79,7 +86,7 @@ class SCV extends Unit {
 }
 
 
-class Marine extends Unit {
+class Marine extends Jay.basic.day10.Unit {
 
     final String fmtattack = "가우스소총을 이용해서 대상에 %d의 피해를 주고있습니다\n";
     final String fmtmove = "지정한 위치로 %.2f 속도로 이동중입니다\n";
@@ -113,7 +120,7 @@ class Marine extends Unit {
     }
 }
 
-class Firebat extends Unit {
+class Firebat extends Jay.basic.day10.Unit {
 
     final String fmtattack = "화염방사기를 이용해서 대상에 %d의 피해를 주고있습니다\n";
     final String fmtmove = "지정한 위치로 %.2f 속도로 이동중입니다\n";
@@ -124,7 +131,7 @@ class Firebat extends Unit {
         hp = 50;
         power = 8 * 2;
         mvspd = 1.875;
-        mineral = 50;
+        mineral =50;
         gas = 25;
     }
 
@@ -135,7 +142,7 @@ class Firebat extends Unit {
 
     @Override
     public void move() {
-        System.out.printf(fmtmove, mvspd);
+        System.out.printf(fmtmove,mvspd);
     }
 
     @Override
