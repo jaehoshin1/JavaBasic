@@ -5,6 +5,7 @@ import java.io.Serializable;
 //직렬화를 지원하기 위해 Serializable 구현해서 정의해야 함!
 public class SungJukVO implements Serializable {
 
+    protected String sjno;
     protected String name;
     protected int kor;
     protected int eng;
@@ -12,6 +13,25 @@ public class SungJukVO implements Serializable {
     protected int tot;
     protected double avg;
     protected char grd;
+    protected String regdate;
+
+    public String getSjno() {
+        return sjno;
+    }
+
+    public void setSjno(String sjno) {
+        this.sjno = sjno;
+    }
+
+    public String getRegdate() {
+        return regdate;
+    }
+
+    public void setRegdate(String regdate) {
+        this.regdate = regdate;
+    }
+
+
 
 
     public SungJukVO(String name, int kor, int eng, int mat) {
