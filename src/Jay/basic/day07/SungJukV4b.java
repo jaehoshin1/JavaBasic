@@ -73,6 +73,9 @@ public class SungJukV4b {
             String fmt = "%s %d %d %d\n%d %.1f %c\n";
             System.out.printf(fmt,sj.name, sj.kor, sj.eng, sj.mat, sj.tot, sj.avg, sj.grd );
 
+
+
+
         }
     }
 

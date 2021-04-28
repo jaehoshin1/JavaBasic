@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Gugudan {
 	public static void main(String[] args) {
-		// 구구다 출력하기
+		// 구구단 출력하기
 		// ex ) 7단을 출력하세요 v1
 		System.out.println("7 * 1 = 7");
 		System.out.println("7 * 2 = 14");
@@ -48,7 +48,7 @@ public class Gugudan {
 		// 구구단 프로그램 V1
 		// 사용자로부터 숫자 (1 - 9)를 하나 일력 받아,
 		// 구구단을 출력하는 프로그램 작성
-		// Scaaner , while , printf
+		// Scanner , while , printf
 		
 		Scanner sc = new Scanner(System.in);
 		

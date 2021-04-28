@@ -14,7 +14,7 @@ public class Overloading {
         NonOver no = new NonOver();
         System.out.println(no.add_int(10,10));
         System.out.println(no.add_int3(10,10,10));
-        System.out.println(no.add_double(10,10,));
+        System.out.println(no.add_double(10,10));
 
         Over ov = new Over();
         System.out.println(ov.add(10,10));

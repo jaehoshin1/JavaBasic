@@ -1,6 +1,6 @@
 package Jay.basic.day08;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+//import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 
 public class Inheritance {
     public static void main(String[] args) {
@@ -81,7 +81,3 @@ class Goldfish2 extends Animal {
     public void swim() { }
 }
 
-
-class person
-    String talk;
-    String

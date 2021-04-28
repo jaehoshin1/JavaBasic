@@ -9,11 +9,11 @@ public class TestPrintf {
 		// 4개의 출력문을 사용해서 메세지 출력
 		System.out.print("x =");
 		System.out.print(x);
-		
+
 		System.out.print(" and pi =");
 		System.out.print(pi);
-		
-		// + 연산자를 이용하여 2개의 출력문을 사용
+
+		 //+ 연산자를 이용하여 2개의 출력문을 사용
 		System.out.print("x = " + x);
 		System.out.print(" and pi = " + pi);
 		
